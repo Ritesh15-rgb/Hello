@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = process.env.NEWS_API_KEY;
-const BASE_URL = 'http://newsapi.org/v2';
+const BASE_URL = 'https://newsapi.org/v2';
 
 export interface Article {
   title: string;
